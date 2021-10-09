@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cnf-operators-48
+  name: cnf-operators
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -18,7 +18,7 @@ spec:
   source:
     directory:
       jsonnet: {}
-    path: deploy/4.8/enabled
+    path: deploy/sno/4.8/enabled
     repoURL: https://github.com/alosadagrande/argocd.git
     targetRevision: main
   # Sync policy

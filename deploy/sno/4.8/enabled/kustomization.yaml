@@ -7,6 +7,7 @@ resources:
   - sriov/01-sriov-namespace.yaml
   - sriov/02-sriov-operatorgroup.yaml
   - sriov/03-sriov-subscription.yaml
+  - sriov/04-sriov-disabledrain.yaml
   - nmstate/01-nmstate-namespace.yaml
   - nmstate/02-nmstate-operatorgroup.yaml
   - nmstate/03-nmstate-subscription.yaml

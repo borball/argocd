@@ -4,7 +4,9 @@ metadata:
   name: openshift-performance-addon-operator-subscription
   namespace: openshift-performance-addon-operator
 spec:
-  channel: "4.7" 
+  installPlanApproval: Automatic
+  channel: "4.8" 
   name: performance-addon-operator
-  source: redhat-operators 
+  source: redhat-operators
   sourceNamespace: openshift-marketplace
+
